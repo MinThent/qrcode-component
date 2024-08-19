@@ -2,7 +2,7 @@ import React from "react";
 
 export default function QrCard() {
   return (
-    <div className="flex flex-col justify-center bg-white rounded-2xl w-80 text-center">
+    <div className="flex flex-col justify-center bg-white shadow-xl rounded-2xl w-80 text-center">
       <div className="flex justify-center p-3">
         <img className="rounded-xl w-full max-w-xs" src="image-qr-code.png"></img>
       </div>
